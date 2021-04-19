@@ -1,0 +1,11 @@
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\bin\Debug\netcoreapp2.0\product-catalog.deps.json
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\bin\Debug\netcoreapp2.0\product-catalog.runtimeconfig.json
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\bin\Debug\netcoreapp2.0\product-catalog.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\bin\Debug\netcoreapp2.0\product-catalog.dll
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\bin\Debug\netcoreapp2.0\product-catalog.pdb
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.dll
+C:\Users\lenovo\source\repos\product-catalog\product-catalog\obj\Debug\netcoreapp2.0\product-catalog.pdb
