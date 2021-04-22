@@ -5,35 +5,29 @@ using System.Text;
 namespace ProductCatalog
 {
 
-    public class UserInputs
+    public class CustomerChoice
     {
         public int selectAnOption()
         {
 
-            Console.WriteLine("Please Select An Option");
-            Console.Write("1. Category \t");
-            Console.Write("2. Product \t");
-            Console.WriteLine("3.Exit Application");
-            Console.WriteLine(" ");
-
+            Console.WriteLine("Please Select An Option \n 1.Category \n 2.Product \n 3.Exit Application \n");
+           
             Console.WriteLine("Enter a number from above menu");
-            Console.WriteLine(" ");
             int value = Convert.ToInt32(Console.ReadLine());
             if(value<1 || value>3)
             {
                 Console.WriteLine("Please choose a valid operation");
               
             }
+
+            Console.Clear();
             return value;
             
         }
 
         public int selectInCategory()
         {
-            Console.Write("1. Enter a Category \t");
-            Console.Write("2. List all Categories \t");
-            Console.Write("3. Delete a Category \t");
-            Console.WriteLine("4. Search a category \t");
+            Console.WriteLine("1.Enter a Category \n2.List all Categories \n3.Delete a Category \n4.Search a Category \n");
             
             Console.WriteLine("Enter a number from above menu");
             int value = Convert.ToInt32(Console.ReadLine());
@@ -41,17 +35,14 @@ namespace ProductCatalog
             {
                 Console.WriteLine("Invalid Operation");
             }
+            Console.Clear();
             return value;
         }
 
 
         public int selectInProduct()
         {
-            Console.Write("1. Enter a Product \t");
-            Console.Write("2. List all Products \t");
-            Console.Write("3. Delete a product \t");
-            Console.Write("4. Search a product \t");
-            
+            Console.WriteLine("1.Enter a Product \n 2.List all Product \n 3.Delete a Product \n 4.Search a Product");        
            
             Console.WriteLine("Enter a number from above menu");
             int value = Convert.ToInt32(Console.ReadLine());
@@ -59,6 +50,8 @@ namespace ProductCatalog
             {
                 Console.WriteLine("Invalid Operation");
             }
+
+            Console.Clear();
             return value;
         }
 

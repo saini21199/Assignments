@@ -24,3 +24,16 @@ C:\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csproj.C
 C:\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.dll
 C:\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.pdb
 C:\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.genruntimeconfig.cache
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.exe
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.deps.json
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.runtimeconfig.json
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.runtimeconfig.dev.json
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.dll
+C:\Assignments\ProductCatalog\ProductCatalog\bin\Debug\netcoreapp3.1\ProductCatalog.pdb
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csprojAssemblyReference.cache
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfoInputs.cache
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.AssemblyInfo.cs
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.csproj.CoreCompileInputs.cache
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.dll
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.pdb
+C:\Assignments\ProductCatalog\ProductCatalog\obj\Debug\netcoreapp3.1\ProductCatalog.genruntimeconfig.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace ProductCatalog
 {
@@ -6,32 +7,29 @@ namespace ProductCatalog
     {
         static void Main(string[] args)
         {
-            ManageOperationsBasedOnInputs manage = new ManageOperationsBasedOnInputs();
+            EntitySelection select = new EntitySelection();
 
-            UserInputs ui = new UserInputs();
+            CustomerChoice choice = new CustomerChoice();
+
             while (true)
             {
-                int op = ui.selectAnOption();
+                int input = choice.selectAnOption();
 
-                if (op == 1)
-                {
-                    manage.categorySelected();
+                switch (input) {
+                    case 1:
+                        select.categorySelected();
+                        break;
+                    case 2:
+                        select.productSelected();
+                        break;
+                    default:
+                        Console.WriteLine("Invalid input!! Enter Again \n");
+                        break;
                 }
+                Task.Delay(900);
+                Console.Clear();
 
-                else if(op == 2)
-                {
-                    manage.productSelected();
-                }
-                else if(op==3)
-                {
-                    Environment.Exit(1);
-                }
             }
-
-
-            
-
-
         }
     }
 }

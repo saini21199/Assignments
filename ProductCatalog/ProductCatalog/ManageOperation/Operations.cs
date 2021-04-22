@@ -15,11 +15,7 @@ namespace ProductCatalog
         public static List<Product> Products = new List<Product>();
          public void AddCategory()
         {
-
-
             Category category = new Category();
-               
-                
             
             Console.WriteLine(" Id : " + category.Id + "\t");
             
@@ -35,15 +31,8 @@ namespace ProductCatalog
 
 
             Categories.Add(category);
-
-
-
-
-
-
-
-            //Console.WriteLine(Categories.Count);
-            
+            Console.WriteLine("Category Addded Successfully ! ");
+            Console.Clear();
             
         }
 
@@ -161,9 +150,6 @@ namespace ProductCatalog
                 Console.WriteLine("Do you want to add more catagories, yes to continue otherwise no:");
                 choice = Console.ReadLine();
             } while (choice == "yes");
-
-
-
 
             Products.Add(product);
         }

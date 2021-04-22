@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj": {}
+    "C:\\Assignments\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj": {}
   },
   "projects": {
-    "C:\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj": {
+    "C:\\Assignments\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
+        "projectUniqueName": "C:\\Assignments\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
         "projectName": "ProductCatalog",
-        "projectPath": "C:\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
+        "projectPath": "C:\\Assignments\\ProductCatalog\\ProductCatalog\\ProductCatalog.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\ProductCatalog\\ProductCatalog\\obj\\",
+        "outputPath": "C:\\Assignments\\ProductCatalog\\ProductCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
