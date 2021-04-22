@@ -25,24 +25,49 @@ namespace ProductCatalog
             
             Console.WriteLine("Please enter a Shortcode for the category(max 4 characters): ");
             Boolean check = true;
-
             while (check) {
+                Boolean found = false;
                 category.ShortCode = Console.ReadLine();
-                string c = category.ShortCode;
-                string result=null;
-                if (allCode.Count!= 0)
+                if (allCode.Count == 0)
                 {
-                    result = allCode.First(item => item == category.ShortCode);
-                }
-                else if (result != null)
-                {
-                    Console.WriteLine("Code already exists !! try another ..");
+                    allCode.Add(category.ShortCode);
+                    check = false;
                 }
                 else {
-                    allCode.Add(c);
-                    break;
+
+                    allCode.ForEach((e) => { if (e == category.ShortCode) { found = true; } });
+
+                    //string result = allCode.First((string code) => code == category.ShortCode);
+                    if (found == true)
+                    {
+                        Console.WriteLine("Code already exist!! Enter new");
+                    }
+                    else {
+                        allCode.Add(category.ShortCode);
+                        check = false;
+                    }
                 }
             }
+
+            //Boolean check = true;
+
+            //while (check) {
+            //    category.ShortCode = Console.ReadLine();
+            //    string c = category.ShortCode;
+            //    string result=null;
+            //    if (allCode.Count!= 0)
+            //    {
+            //        result = allCode.First(item => item == category.ShortCode);
+            //    }
+            //    else if (result != null)
+            //    {
+            //        Console.WriteLine("Code already exists !! try another ..");
+            //    }
+            //    else {
+            //        allCode.Add(c);
+            //        break;
+            //    }
+            //}
             
             Console.WriteLine("Please enter description: ");
             category.Description = Console.ReadLine();
@@ -140,7 +165,31 @@ namespace ProductCatalog
 
 
             Console.WriteLine("Please enter a Shortcode for the product(max 4 characters): ");
-            product.ShortCode = Console.ReadLine();
+            Boolean check = true;
+            while (check)
+            {
+                Boolean found = false;
+                product.ShortCode = Console.ReadLine();
+                if (allCode.Count == 0)
+                {
+                    allCode.Add(product.ShortCode);
+                    check = false;
+                }
+                else
+                {
+
+                    allCode.ForEach((e) => { if (e == product.ShortCode) { found = true; } });
+                    if (found == true)
+                    {
+                        Console.WriteLine("code already exist!! enter new");
+                    }
+                    else
+                    {
+                        allCode.Add(product.ShortCode);
+                        check = false;
+                    }
+                }
+            }
 
             Console.WriteLine("Please enter description: ");
             product.Description = Console.ReadLine();
