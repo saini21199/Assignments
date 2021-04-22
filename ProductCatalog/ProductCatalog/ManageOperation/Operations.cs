@@ -6,33 +6,50 @@ using System.Text;
 
 namespace ProductCatalog
 {
-    
     public class Operations
     {
         public Category Category;
 
         public static List<Category> Categories = new List<Category>();
         public static List<Product> Products = new List<Product>();
-         public void AddCategory()
+        public static List<string> allCode = new List<string>();
+        public void AddCategory()
         {
             Category category = new Category();
             
-            Console.WriteLine(" Id : " + category.Id + "\t");
+            Console.WriteLine("Cateory Id : " + category.Id + "\t");
             
             Console.WriteLine("Please enter category name: ");
             category.Name = Console.ReadLine();
             
             
             Console.WriteLine("Please enter a Shortcode for the category(max 4 characters): ");
-            category.ShortCode = Console.ReadLine();
-           
+            Boolean check = true;
+
+            while (check) {
+                category.ShortCode = Console.ReadLine();
+                string c = category.ShortCode;
+                string result=null;
+                if (allCode.Count!= 0)
+                {
+                    result = allCode.First(item => item == category.ShortCode);
+                }
+                else if (result != null)
+                {
+                    Console.WriteLine("Code already exists !! try another ..");
+                }
+                else {
+                    allCode.Add(c);
+                    break;
+                }
+            }
+            
             Console.WriteLine("Please enter description: ");
             category.Description = Console.ReadLine();
 
 
             Categories.Add(category);
             Console.WriteLine("Category Addded Successfully ! ");
-            Console.Clear();
             
         }
 
@@ -107,8 +124,6 @@ namespace ProductCatalog
 
 
         }
-       
-
 
         public void AddProduct()
         {

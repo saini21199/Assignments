@@ -27,7 +27,6 @@ namespace ProductCatalog
                         break;
                 }
                 Task.Delay(900);
-                Console.Clear();
 
             }
         }

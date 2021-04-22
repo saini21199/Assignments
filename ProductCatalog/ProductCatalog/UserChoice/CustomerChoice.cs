@@ -19,10 +19,7 @@ namespace ProductCatalog
                 Console.WriteLine("Please choose a valid operation");
               
             }
-
-            Console.Clear();
             return value;
-            
         }
 
         public int selectInCategory()
@@ -35,7 +32,6 @@ namespace ProductCatalog
             {
                 Console.WriteLine("Invalid Operation");
             }
-            Console.Clear();
             return value;
         }
 
@@ -50,8 +46,6 @@ namespace ProductCatalog
             {
                 Console.WriteLine("Invalid Operation");
             }
-
-            Console.Clear();
             return value;
         }
 

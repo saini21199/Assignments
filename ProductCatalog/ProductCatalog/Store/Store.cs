@@ -10,5 +10,6 @@ namespace ProductCatalog
         public string Name { get; set; }
         public string ShortCode { get; set; }
         public string Description { get; set; }
+
     }
 }
